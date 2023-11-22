@@ -10,5 +10,9 @@
     "mongoose": "^8.0.0",
     "multer": "^1.4.5-lts.1",
     "react-router-dom": "^6.18.0"
+  },
+  "scripts": {
+    "start":  "node index.js"
   }
 }
+

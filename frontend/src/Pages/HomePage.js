@@ -6,6 +6,7 @@ import LoadMore from '../loadMore';
 import Search from '../Search';
 import CategorySelection from '../CategorySelection';
 import HomePage2 from "./HomePage2";
+import Footer from "../footer";
 
 export default function HomePage() {
   const [posts, setPosts] = useState([]);
@@ -78,6 +79,7 @@ export default function HomePage() {
       </div>
       <LoadMore nextPage={nextPage} loadMore={loadMorePosts} />
       <HomePage2 />
+      <Footer />
     </main>
   );
 }
