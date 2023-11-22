@@ -43,7 +43,7 @@ export default function Header_Adminlogin(){
               {!username && (
             <>
              <div className="login_reg">
-             <Link className="admin_btn" to="/admin">Log in</Link>
+             <Link className="admin_btn" to="/admin">Login</Link>
               
               
               <Link className="admin_btn" to="/adminReg">Register</Link>
